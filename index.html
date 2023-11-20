@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>🦜 Polyglot - pirátština</title>
+      <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+  </head>
+  <body>
+    <h1>Překladač do pirátštiny 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
+    <p>Přeloží anglický text do 'pirátštiny'...(spíš jen tak trochu)</p>
+    <input type="text" id="english" placeholder="Sem napiš text v AJ..." />
+    <button py-click="translate_english">Přelož</button>
+    <div id="output"></div>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
+  </body>
+</html>
